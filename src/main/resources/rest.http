@@ -1,0 +1,15 @@
+GET http://localhost:8081/auth/login?userEmail=cris.torres15%40gmail.com&userPassword=abc123
+
+###
+POST http://localhost:8081/auth/login
+content-type: application/json
+accept: application/json
+
+{"userEmail":  "cris.torres15@gmail.com", "userPassword": "abc123"}
+
+###
+POST http://localhost:8081/auth/signup
+content-type: application/json
+accept: application/json
+
+{"userEmail":  "cris.torres15+test1@gmail.com", "userPassword": "abc123"}
